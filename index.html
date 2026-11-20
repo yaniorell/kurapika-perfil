@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Perfil profesional ficticio de Kurapika Kurta, analista forense digital y especialista en ciberseguridad.">
+  <title>Kurapika Kurta | Inicio</title>
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-index">
+  <header>
+    <div class="nav-envoltorio">
+      <nav class="navbar navbar-expand-lg navbar-dark nav-pill" aria-label="Navegación principal">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Inicio Kurapika Kurta">
+            <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="#e10600" stroke-width="2"></circle><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="11" font-family="Inter, sans-serif" font-weight="700">KK</text></svg>KK
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPrincipal" aria-controls="navPrincipal" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navPrincipal">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" data-pagina="index.html" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" data-pagina="perfil.html" href="perfil.html">Perfil</a></li>
+              <li class="nav-item"><a class="nav-link" data-pagina="experiencia.html" href="experiencia.html">Experiencia</a></li>
+              <li class="nav-item"><a class="nav-link" data-pagina="formacion.html" href="formacion.html">Formación</a></li>
+              <li class="nav-item"><a class="nav-link" data-pagina="proyectos.html" href="proyectos.html">Proyectos</a></li>
+              <li class="nav-item"><a class="nav-link" data-pagina="referencias.html" href="referencias.html">Referencias</a></li>
+            </ul>
+            <a class="btn btn-pill-primary" href="index.html#contacto">Contactar</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-index row align-items-center g-5" aria-labelledby="titulo-principal">
+      <div class="col-lg-7 reveal">
+        <p id="saludo-hora" class="hash-tag">Perfil profesional · evidencia #001</p>
+        <span class="chip-disponible mb-3"><span class="punto" aria-hidden="true"></span>Disponible para casos y consultorías</span>
+        <h1 id="titulo-principal" class="titulo-display">Soy <span class="palabra-acento">KURAPIKA</span><br>KURTA</h1>
+        <p class="lead mt-3">Analista Forense Digital <span class="palabra-acento">y</span> Especialista en Ciberseguridad</p>
+        <p id="eslogan-hero" class="text-secondary">Investigo cada rastro hasta encontrar la verdad.</p>
+        <p id="nota-html" class="hash-tag">cadena de custodia · integridad verificable</p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a class="btn btn-pill-primary" href="proyectos.html">Ver proyectos <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+          <button class="btn btn-pill-ghost" id="btn-cv" type="button">Descargar CV</button>
+          <button class="btn btn-pill-ghost" id="btn-eslogan" type="button">Ver otra frase</button>
+        </div>
+        <div class="mt-4 d-flex align-items-center gap-3">
+          <svg class="sello-giro" viewBox="0 0 120 120" role="img" aria-label="Forense, ciberseguridad">
+            <defs><path id="ruta-sello" d="M60,60 m-43,0 a43,43 0 1,1 86,0 a43,43 0 1,1 -86,0"></path></defs>
+            <text><textPath href="#ruta-sello">FORENSE • CIBERSEGURIDAD • FORENSE •</textPath></text>
+            <path class="sello-flecha" d="M58 43h5l12 17-12 17h-5l11-17z"></path>
+          </svg>
+          <span class="sello-confidencial">CONFIDENCIAL / PERFIL FICTICIO</span>
+        </div>
+      </div>
+      <div class="col-lg-5 reveal">
+        <div class="marco-arco">
+          <img src="img/foto-perfil.jpg" alt="Retrato profesional de Kurapika Kurta" width="800" height="1000">
+        </div>
+      </div>
+    </section>
+
+    <section class="row g-3 py-4" aria-label="Indicadores profesionales">
+      <div class="col-md-4"><article class="card card-glass p-4 h-100"><p class="hash-tag mb-2">EXPERIENCIA</p><p class="metric-numero mb-1">5+</p><p class="text-secondary mb-0">años en investigación digital</p></article></div>
+      <div class="col-md-4"><article class="card card-glass p-4 h-100"><p class="hash-tag mb-2">CASOS</p><p id="contador-casos" class="metric-numero mb-1">40+</p><p class="text-secondary mb-0">casos analizados</p><button class="btn btn-sm btn-pill-ghost mt-3 align-self-start" id="btn-contador" type="button">Registrar caso</button></article></div>
+      <div class="col-md-4"><article class="card card-glass p-4 h-100"><p class="hash-tag mb-2">INTEGRIDAD</p><p class="metric-numero mb-1">100%</p><p class="text-secondary mb-0">trazabilidad de evidencia</p></article></div>
+    </section>
+
+    <div class="cadena-separador" aria-hidden="true"><span class="linea"></span><span class="eslabon"></span><span class="eslabon"></span><span class="linea"></span></div>
+
+    <section id="contacto" class="row g-4 align-items-start pb-5" aria-labelledby="titulo-contacto">
+      <div class="col-lg-5 reveal">
+        <p class="hash-tag">canales de contacto / Yorknew City</p>
+        <h2 id="titulo-contacto" class="titulo-seccion h3">Contacto <span class="palabra-acento">directo</span></h2>
+        <p class="text-secondary">Datos de demostración; sustituya cada valor marcado antes de publicar.</p>
+        <div class="controles-dom mt-3">
+          <button id="btn-acento" type="button" class="btn btn-pill-ghost">Cambiar acento</button>
+          <button id="btn-fuente-menos" type="button" class="btn btn-pill-ghost" aria-label="Reducir tamaño de texto">A−</button>
+          <button id="btn-fuente-mas" type="button" class="btn btn-pill-ghost" aria-label="Aumentar tamaño de texto">A+</button>
+        </div>
+      </div>
+      <div class="col-lg-7 reveal">
+        <article class="card card-glass p-3 p-md-4" id="tarjeta-contacto">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-dark-soft d-flex gap-3"><i class="bi bi-envelope text-danger" aria-hidden="true"></i><span id="texto-correo">kurapika.contacto@example.com [PLACEHOLDER]</span></li>
+            <li class="list-group-item list-group-item-dark-soft d-flex gap-3"><i class="bi bi-telephone text-danger" aria-hidden="true"></i><span>+1 (555) 010-2040 [PLACEHOLDER]</span></li>
+            <li class="list-group-item list-group-item-dark-soft d-flex gap-3"><i class="bi bi-geo-alt text-danger" aria-hidden="true"></i><span>Yorknew City [PLACEHOLDER]</span></li>
+            <li class="list-group-item list-group-item-dark-soft d-flex gap-3"><i class="bi bi-linkedin text-danger" aria-hidden="true"></i><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">linkedin.com/in/kurta [PLACEHOLDER]</a></li>
+            <li class="list-group-item list-group-item-dark-soft d-flex gap-3"><i class="bi bi-github text-danger" aria-hidden="true"></i><a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/kurta [PLACEHOLDER]</a></li>
+          </ul>
+          <div class="d-flex flex-wrap gap-2 mt-3">
+            <button type="button" class="btn btn-pill-primary" onclick="copiarCorreo()">Copiar correo</button>
+            <span class="hash-tag align-self-center">evento inline / DOM-5</span>
+          </div>
+        </article>
+        <div id="alerta-global" class="alert d-none mt-3" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="sitio-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0 small text-secondary">© <span id="anio-footer">2026</span> Kurapika Kurta — perfil académico ficticio.</p>
+      <div class="d-flex gap-2"><a class="icono-red" href="https://github.com/" aria-label="GitHub"><i class="bi bi-github"></i></a><a class="icono-red" href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a class="icono-red" href="index.html#contacto" aria-label="Contacto"><i class="bi bi-envelope"></i></a></div>
+    </div>
+  </footer>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
